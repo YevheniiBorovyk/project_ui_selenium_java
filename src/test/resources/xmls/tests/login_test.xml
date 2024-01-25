@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Login" verbose="1">
+
+    <test name="[SN] Login">
+        <classes>
+            <class name="tests.login.LoginPageTest">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

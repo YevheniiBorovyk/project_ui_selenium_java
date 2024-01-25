@@ -1,0 +1,15 @@
+*.idea
+*.iml
+*.txt
+surefire-reports
+appium-reports
+target
+debug.log.DS_Store
+src/.DS_Store
+src/test/.DS_Store
+src/test/resources/.DS_Store
+.DS_Store
+*.allure
+null/
+allure-results
+debug.log

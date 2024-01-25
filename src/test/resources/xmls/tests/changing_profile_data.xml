@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Changing profile data" verbose="1">
+
+    <test name="Check changing profile data">
+        <classes>
+            <class name="tests.profile.ChangingProfileDataTest">
+                <methods>
+                    <include name="checkChangingProfileData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
